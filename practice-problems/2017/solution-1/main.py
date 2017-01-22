@@ -154,7 +154,7 @@ def main():
 		pizza_object.get_nr_each_ingredient_per_slice(), pizza_object.get_max_cells_per_slice()))
 	slices = _place_slices(pizza_object)
 	print('Nr slices: {}'.format(len(slices)))
-	# _plot_result(slices, pizza_object)
+	_plot_result(slices, pizza_object)
 	_print_result_to_file(slices)
 
 
